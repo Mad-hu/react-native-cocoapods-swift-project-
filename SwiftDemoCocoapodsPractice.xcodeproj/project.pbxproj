@@ -1,505 +1,1117 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		FA2F31CA1D13A47B00EFFCAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F31C91D13A47B00EFFCAE /* AppDelegate.swift */; };
-		FA2F31CC1D13A47B00EFFCAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F31CB1D13A47B00EFFCAE /* ViewController.swift */; };
-		FA2F31CF1D13A47B00EFFCAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2F31CD1D13A47B00EFFCAE /* Main.storyboard */; };
-		FA2F31D11D13A47B00EFFCAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2F31D01D13A47B00EFFCAE /* Assets.xcassets */; };
-		FA2F31D41D13A47B00EFFCAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2F31D21D13A47B00EFFCAE /* LaunchScreen.storyboard */; };
-		FA2F31DF1D13A47C00EFFCAE /* SwiftDemoCocoapodsPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F31DE1D13A47C00EFFCAE /* SwiftDemoCocoapodsPracticeTests.swift */; };
-		FA2F31EA1D13A47C00EFFCAE /* SwiftDemoCocoapodsPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F31E91D13A47C00EFFCAE /* SwiftDemoCocoapodsPracticeUITests.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		FA2F31DB1D13A47C00EFFCAE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA2F31BE1D13A47B00EFFCAE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FA2F31C51D13A47B00EFFCAE;
-			remoteInfo = SwiftDemoCocoapodsPractice;
-		};
-		FA2F31E61D13A47C00EFFCAE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA2F31BE1D13A47B00EFFCAE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FA2F31C51D13A47B00EFFCAE;
-			remoteInfo = SwiftDemoCocoapodsPractice;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		FA2F31C61D13A47B00EFFCAE /* SwiftDemoCocoapodsPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemoCocoapodsPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA2F31C91D13A47B00EFFCAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA2F31CB1D13A47B00EFFCAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FA2F31CE1D13A47B00EFFCAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FA2F31D01D13A47B00EFFCAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FA2F31D31D13A47B00EFFCAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FA2F31D51D13A47B00EFFCAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA2F31DA1D13A47C00EFFCAE /* SwiftDemoCocoapodsPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDemoCocoapodsPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA2F31DE1D13A47C00EFFCAE /* SwiftDemoCocoapodsPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemoCocoapodsPracticeTests.swift; sourceTree = "<group>"; };
-		FA2F31E01D13A47C00EFFCAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA2F31E51D13A47C00EFFCAE /* SwiftDemoCocoapodsPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDemoCocoapodsPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA2F31E91D13A47C00EFFCAE /* SwiftDemoCocoapodsPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemoCocoapodsPracticeUITests.swift; sourceTree = "<group>"; };
-		FA2F31EB1D13A47C00EFFCAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		FA2F31C31D13A47B00EFFCAE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA2F31D71D13A47C00EFFCAE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA2F31E21D13A47C00EFFCAE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		FA2F31BD1D13A47B00EFFCAE = {
-			isa = PBXGroup;
-			children = (
-				FA2F31C81D13A47B00EFFCAE /* SwiftDemoCocoapodsPractice */,
-				FA2F31DD1D13A47C00EFFCAE /* SwiftDemoCocoapodsPracticeTests */,
-				FA2F31E81D13A47C00EFFCAE /* SwiftDemoCocoapodsPracticeUITests */,
-				FA2F31C71D13A47B00EFFCAE /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		FA2F31C71D13A47B00EFFCAE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FA2F31C61D13A47B00EFFCAE /* SwiftDemoCocoapodsPractice.app */,
-				FA2F31DA1D13A47C00EFFCAE /* SwiftDemoCocoapodsPracticeTests.xctest */,
-				FA2F31E51D13A47C00EFFCAE /* SwiftDemoCocoapodsPracticeUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		FA2F31C81D13A47B00EFFCAE /* SwiftDemoCocoapodsPractice */ = {
-			isa = PBXGroup;
-			children = (
-				FA2F31C91D13A47B00EFFCAE /* AppDelegate.swift */,
-				FA2F31CB1D13A47B00EFFCAE /* ViewController.swift */,
-				FA2F31CD1D13A47B00EFFCAE /* Main.storyboard */,
-				FA2F31D01D13A47B00EFFCAE /* Assets.xcassets */,
-				FA2F31D21D13A47B00EFFCAE /* LaunchScreen.storyboard */,
-				FA2F31D51D13A47B00EFFCAE /* Info.plist */,
-			);
-			path = SwiftDemoCocoapodsPractice;
-			sourceTree = "<group>";
-		};
-		FA2F31DD1D13A47C00EFFCAE /* SwiftDemoCocoapodsPracticeTests */ = {
-			isa = PBXGroup;
-			children = (
-				FA2F31DE1D13A47C00EFFCAE /* SwiftDemoCocoapodsPracticeTests.swift */,
-				FA2F31E01D13A47C00EFFCAE /* Info.plist */,
-			);
-			path = SwiftDemoCocoapodsPracticeTests;
-			sourceTree = "<group>";
-		};
-		FA2F31E81D13A47C00EFFCAE /* SwiftDemoCocoapodsPracticeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FA2F31E91D13A47C00EFFCAE /* SwiftDemoCocoapodsPracticeUITests.swift */,
-				FA2F31EB1D13A47C00EFFCAE /* Info.plist */,
-			);
-			path = SwiftDemoCocoapodsPracticeUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		FA2F31C51D13A47B00EFFCAE /* SwiftDemoCocoapodsPractice */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FA2F31EE1D13A47C00EFFCAE /* Build configuration list for PBXNativeTarget "SwiftDemoCocoapodsPractice" */;
-			buildPhases = (
-				FA2F31C21D13A47B00EFFCAE /* Sources */,
-				FA2F31C31D13A47B00EFFCAE /* Frameworks */,
-				FA2F31C41D13A47B00EFFCAE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftDemoCocoapodsPractice;
-			productName = SwiftDemoCocoapodsPractice;
-			productReference = FA2F31C61D13A47B00EFFCAE /* SwiftDemoCocoapodsPractice.app */;
-			productType = "com.apple.product-type.application";
-		};
-		FA2F31D91D13A47C00EFFCAE /* SwiftDemoCocoapodsPracticeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FA2F31F11D13A47C00EFFCAE /* Build configuration list for PBXNativeTarget "SwiftDemoCocoapodsPracticeTests" */;
-			buildPhases = (
-				FA2F31D61D13A47C00EFFCAE /* Sources */,
-				FA2F31D71D13A47C00EFFCAE /* Frameworks */,
-				FA2F31D81D13A47C00EFFCAE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FA2F31DC1D13A47C00EFFCAE /* PBXTargetDependency */,
-			);
-			name = SwiftDemoCocoapodsPracticeTests;
-			productName = SwiftDemoCocoapodsPracticeTests;
-			productReference = FA2F31DA1D13A47C00EFFCAE /* SwiftDemoCocoapodsPracticeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		FA2F31E41D13A47C00EFFCAE /* SwiftDemoCocoapodsPracticeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FA2F31F41D13A47C00EFFCAE /* Build configuration list for PBXNativeTarget "SwiftDemoCocoapodsPracticeUITests" */;
-			buildPhases = (
-				FA2F31E11D13A47C00EFFCAE /* Sources */,
-				FA2F31E21D13A47C00EFFCAE /* Frameworks */,
-				FA2F31E31D13A47C00EFFCAE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FA2F31E71D13A47C00EFFCAE /* PBXTargetDependency */,
-			);
-			name = SwiftDemoCocoapodsPracticeUITests;
-			productName = SwiftDemoCocoapodsPracticeUITests;
-			productReference = FA2F31E51D13A47C00EFFCAE /* SwiftDemoCocoapodsPracticeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		FA2F31BE1D13A47B00EFFCAE /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = "Mad-hu";
-				TargetAttributes = {
-					FA2F31C51D13A47B00EFFCAE = {
-						CreatedOnToolsVersion = 7.3.1;
-					};
-					FA2F31D91D13A47C00EFFCAE = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = FA2F31C51D13A47B00EFFCAE;
-					};
-					FA2F31E41D13A47C00EFFCAE = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = FA2F31C51D13A47B00EFFCAE;
-					};
-				};
-			};
-			buildConfigurationList = FA2F31C11D13A47B00EFFCAE /* Build configuration list for PBXProject "SwiftDemoCocoapodsPractice" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = FA2F31BD1D13A47B00EFFCAE;
-			productRefGroup = FA2F31C71D13A47B00EFFCAE /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				FA2F31C51D13A47B00EFFCAE /* SwiftDemoCocoapodsPractice */,
-				FA2F31D91D13A47C00EFFCAE /* SwiftDemoCocoapodsPracticeTests */,
-				FA2F31E41D13A47C00EFFCAE /* SwiftDemoCocoapodsPracticeUITests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		FA2F31C41D13A47B00EFFCAE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA2F31D41D13A47B00EFFCAE /* LaunchScreen.storyboard in Resources */,
-				FA2F31D11D13A47B00EFFCAE /* Assets.xcassets in Resources */,
-				FA2F31CF1D13A47B00EFFCAE /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA2F31D81D13A47C00EFFCAE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA2F31E31D13A47C00EFFCAE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		FA2F31C21D13A47B00EFFCAE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA2F31CC1D13A47B00EFFCAE /* ViewController.swift in Sources */,
-				FA2F31CA1D13A47B00EFFCAE /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA2F31D61D13A47C00EFFCAE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA2F31DF1D13A47C00EFFCAE /* SwiftDemoCocoapodsPracticeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA2F31E11D13A47C00EFFCAE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA2F31EA1D13A47C00EFFCAE /* SwiftDemoCocoapodsPracticeUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FA2F31DC1D13A47C00EFFCAE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FA2F31C51D13A47B00EFFCAE /* SwiftDemoCocoapodsPractice */;
-			targetProxy = FA2F31DB1D13A47C00EFFCAE /* PBXContainerItemProxy */;
-		};
-		FA2F31E71D13A47C00EFFCAE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FA2F31C51D13A47B00EFFCAE /* SwiftDemoCocoapodsPractice */;
-			targetProxy = FA2F31E61D13A47C00EFFCAE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		FA2F31CD1D13A47B00EFFCAE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FA2F31CE1D13A47B00EFFCAE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FA2F31D21D13A47B00EFFCAE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FA2F31D31D13A47B00EFFCAE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		FA2F31EC1D13A47C00EFFCAE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		FA2F31ED1D13A47C00EFFCAE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		FA2F31EF1D13A47C00EFFCAE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SwiftDemoCocoapodsPractice/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Mad-hu.SwiftDemoCocoapodsPractice";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		FA2F31F01D13A47C00EFFCAE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SwiftDemoCocoapodsPractice/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Mad-hu.SwiftDemoCocoapodsPractice";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		FA2F31F21D13A47C00EFFCAE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SwiftDemoCocoapodsPracticeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Mad-hu.SwiftDemoCocoapodsPracticeTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftDemoCocoapodsPractice.app/SwiftDemoCocoapodsPractice";
-			};
-			name = Debug;
-		};
-		FA2F31F31D13A47C00EFFCAE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SwiftDemoCocoapodsPracticeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Mad-hu.SwiftDemoCocoapodsPracticeTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftDemoCocoapodsPractice.app/SwiftDemoCocoapodsPractice";
-			};
-			name = Release;
-		};
-		FA2F31F51D13A47C00EFFCAE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = SwiftDemoCocoapodsPracticeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Mad-hu.SwiftDemoCocoapodsPracticeUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = SwiftDemoCocoapodsPractice;
-			};
-			name = Debug;
-		};
-		FA2F31F61D13A47C00EFFCAE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = SwiftDemoCocoapodsPracticeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Mad-hu.SwiftDemoCocoapodsPracticeUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = SwiftDemoCocoapodsPractice;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		FA2F31C11D13A47B00EFFCAE /* Build configuration list for PBXProject "SwiftDemoCocoapodsPractice" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FA2F31EC1D13A47C00EFFCAE /* Debug */,
-				FA2F31ED1D13A47C00EFFCAE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FA2F31EE1D13A47C00EFFCAE /* Build configuration list for PBXNativeTarget "SwiftDemoCocoapodsPractice" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FA2F31EF1D13A47C00EFFCAE /* Debug */,
-				FA2F31F01D13A47C00EFFCAE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		FA2F31F11D13A47C00EFFCAE /* Build configuration list for PBXNativeTarget "SwiftDemoCocoapodsPracticeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FA2F31F21D13A47C00EFFCAE /* Debug */,
-				FA2F31F31D13A47C00EFFCAE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		FA2F31F41D13A47C00EFFCAE /* Build configuration list for PBXNativeTarget "SwiftDemoCocoapodsPracticeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FA2F31F51D13A47C00EFFCAE /* Debug */,
-				FA2F31F61D13A47C00EFFCAE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = FA2F31BE1D13A47B00EFFCAE /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>35206E0820D239BCB05CA1B9</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>3786F9F5EB2BC7AD15EC1205</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods_SwiftDemoCocoapodsPractice.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>49A4284A9840E93DE3DE107B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-SwiftDemoCocoapodsPractice/Pods-SwiftDemoCocoapodsPractice-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>61FF13307A80B08D990F0481</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3786F9F5EB2BC7AD15EC1205</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A625BD32791751FADF27081D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-SwiftDemoCocoapodsPractice.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-SwiftDemoCocoapodsPractice/Pods-SwiftDemoCocoapodsPractice.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A7E366F1E8B82156588BE29B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3786F9F5EB2BC7AD15EC1205</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D7D255038FF1A29CF763DCA3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-SwiftDemoCocoapodsPractice/Pods-SwiftDemoCocoapodsPractice-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>E5FA558AA77D00090E65A5FB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A625BD32791751FADF27081D</string>
+				<string>ECF12F9EE4049152012991C4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ECF12F9EE4049152012991C4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-SwiftDemoCocoapodsPractice.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-SwiftDemoCocoapodsPractice/Pods-SwiftDemoCocoapodsPractice.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA2F31BD1D13A47B00EFFCAE</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>FA2F31C81D13A47B00EFFCAE</string>
+				<string>FA2F31DD1D13A47C00EFFCAE</string>
+				<string>FA2F31E81D13A47C00EFFCAE</string>
+				<string>FA2F31C71D13A47B00EFFCAE</string>
+				<string>E5FA558AA77D00090E65A5FB</string>
+				<string>A7E366F1E8B82156588BE29B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA2F31BE1D13A47B00EFFCAE</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastSwiftUpdateCheck</key>
+				<string>0730</string>
+				<key>LastUpgradeCheck</key>
+				<string>0730</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>Mad-hu</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>FA2F31C51D13A47B00EFFCAE</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3.1</string>
+					</dict>
+					<key>FA2F31D91D13A47C00EFFCAE</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3.1</string>
+						<key>TestTargetID</key>
+						<string>FA2F31C51D13A47B00EFFCAE</string>
+					</dict>
+					<key>FA2F31E41D13A47C00EFFCAE</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3.1</string>
+						<key>TestTargetID</key>
+						<string>FA2F31C51D13A47B00EFFCAE</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>FA2F31C11D13A47B00EFFCAE</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>FA2F31BD1D13A47B00EFFCAE</string>
+			<key>productRefGroup</key>
+			<string>FA2F31C71D13A47B00EFFCAE</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>FA2F31C51D13A47B00EFFCAE</string>
+				<string>FA2F31D91D13A47C00EFFCAE</string>
+				<string>FA2F31E41D13A47C00EFFCAE</string>
+			</array>
+		</dict>
+		<key>FA2F31C11D13A47B00EFFCAE</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>FA2F31EC1D13A47C00EFFCAE</string>
+				<string>FA2F31ED1D13A47C00EFFCAE</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>FA2F31C21D13A47B00EFFCAE</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>FA2F31CC1D13A47B00EFFCAE</string>
+				<string>FA2F31CA1D13A47B00EFFCAE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>FA2F31C31D13A47B00EFFCAE</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>61FF13307A80B08D990F0481</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>FA2F31C41D13A47B00EFFCAE</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>FA2F31D41D13A47B00EFFCAE</string>
+				<string>FA2F31D11D13A47B00EFFCAE</string>
+				<string>FA2F31CF1D13A47B00EFFCAE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>FA2F31C51D13A47B00EFFCAE</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>FA2F31EE1D13A47C00EFFCAE</string>
+			<key>buildPhases</key>
+			<array>
+				<string>35206E0820D239BCB05CA1B9</string>
+				<string>FA2F31C21D13A47B00EFFCAE</string>
+				<string>FA2F31C31D13A47B00EFFCAE</string>
+				<string>FA2F31C41D13A47B00EFFCAE</string>
+				<string>49A4284A9840E93DE3DE107B</string>
+				<string>D7D255038FF1A29CF763DCA3</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SwiftDemoCocoapodsPractice</string>
+			<key>productName</key>
+			<string>SwiftDemoCocoapodsPractice</string>
+			<key>productReference</key>
+			<string>FA2F31C61D13A47B00EFFCAE</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>FA2F31C61D13A47B00EFFCAE</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>SwiftDemoCocoapodsPractice.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>FA2F31C71D13A47B00EFFCAE</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>FA2F31C61D13A47B00EFFCAE</string>
+				<string>FA2F31DA1D13A47C00EFFCAE</string>
+				<string>FA2F31E51D13A47C00EFFCAE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA2F31C81D13A47B00EFFCAE</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>FA2F31C91D13A47B00EFFCAE</string>
+				<string>FA2F31CB1D13A47B00EFFCAE</string>
+				<string>FA2F31CD1D13A47B00EFFCAE</string>
+				<string>FA2F31D01D13A47B00EFFCAE</string>
+				<string>FA2F31D21D13A47B00EFFCAE</string>
+				<string>FA2F31D51D13A47B00EFFCAE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>SwiftDemoCocoapodsPractice</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA2F31C91D13A47B00EFFCAE</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>AppDelegate.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA2F31CA1D13A47B00EFFCAE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FA2F31C91D13A47B00EFFCAE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FA2F31CB1D13A47B00EFFCAE</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>ViewController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA2F31CC1D13A47B00EFFCAE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FA2F31CB1D13A47B00EFFCAE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FA2F31CD1D13A47B00EFFCAE</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>FA2F31CE1D13A47B00EFFCAE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA2F31CE1D13A47B00EFFCAE</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA2F31CF1D13A47B00EFFCAE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FA2F31CD1D13A47B00EFFCAE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FA2F31D01D13A47B00EFFCAE</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA2F31D11D13A47B00EFFCAE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FA2F31D01D13A47B00EFFCAE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FA2F31D21D13A47B00EFFCAE</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>FA2F31D31D13A47B00EFFCAE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA2F31D31D13A47B00EFFCAE</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA2F31D41D13A47B00EFFCAE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FA2F31D21D13A47B00EFFCAE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FA2F31D51D13A47B00EFFCAE</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA2F31D61D13A47C00EFFCAE</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>FA2F31DF1D13A47C00EFFCAE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>FA2F31D71D13A47C00EFFCAE</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>FA2F31D81D13A47C00EFFCAE</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>FA2F31D91D13A47C00EFFCAE</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>FA2F31F11D13A47C00EFFCAE</string>
+			<key>buildPhases</key>
+			<array>
+				<string>FA2F31D61D13A47C00EFFCAE</string>
+				<string>FA2F31D71D13A47C00EFFCAE</string>
+				<string>FA2F31D81D13A47C00EFFCAE</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>FA2F31DC1D13A47C00EFFCAE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SwiftDemoCocoapodsPracticeTests</string>
+			<key>productName</key>
+			<string>SwiftDemoCocoapodsPracticeTests</string>
+			<key>productReference</key>
+			<string>FA2F31DA1D13A47C00EFFCAE</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>FA2F31DA1D13A47C00EFFCAE</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>SwiftDemoCocoapodsPracticeTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>FA2F31DB1D13A47C00EFFCAE</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>FA2F31BE1D13A47B00EFFCAE</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>FA2F31C51D13A47B00EFFCAE</string>
+			<key>remoteInfo</key>
+			<string>SwiftDemoCocoapodsPractice</string>
+		</dict>
+		<key>FA2F31DC1D13A47C00EFFCAE</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>FA2F31C51D13A47B00EFFCAE</string>
+			<key>targetProxy</key>
+			<string>FA2F31DB1D13A47C00EFFCAE</string>
+		</dict>
+		<key>FA2F31DD1D13A47C00EFFCAE</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>FA2F31DE1D13A47C00EFFCAE</string>
+				<string>FA2F31E01D13A47C00EFFCAE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>SwiftDemoCocoapodsPracticeTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA2F31DE1D13A47C00EFFCAE</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>SwiftDemoCocoapodsPracticeTests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA2F31DF1D13A47C00EFFCAE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FA2F31DE1D13A47C00EFFCAE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FA2F31E01D13A47C00EFFCAE</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA2F31E11D13A47C00EFFCAE</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>FA2F31EA1D13A47C00EFFCAE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>FA2F31E21D13A47C00EFFCAE</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>FA2F31E31D13A47C00EFFCAE</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>FA2F31E41D13A47C00EFFCAE</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>FA2F31F41D13A47C00EFFCAE</string>
+			<key>buildPhases</key>
+			<array>
+				<string>FA2F31E11D13A47C00EFFCAE</string>
+				<string>FA2F31E21D13A47C00EFFCAE</string>
+				<string>FA2F31E31D13A47C00EFFCAE</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>FA2F31E71D13A47C00EFFCAE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SwiftDemoCocoapodsPracticeUITests</string>
+			<key>productName</key>
+			<string>SwiftDemoCocoapodsPracticeUITests</string>
+			<key>productReference</key>
+			<string>FA2F31E51D13A47C00EFFCAE</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.ui-testing</string>
+		</dict>
+		<key>FA2F31E51D13A47C00EFFCAE</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>SwiftDemoCocoapodsPracticeUITests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>FA2F31E61D13A47C00EFFCAE</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>FA2F31BE1D13A47B00EFFCAE</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>FA2F31C51D13A47B00EFFCAE</string>
+			<key>remoteInfo</key>
+			<string>SwiftDemoCocoapodsPractice</string>
+		</dict>
+		<key>FA2F31E71D13A47C00EFFCAE</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>FA2F31C51D13A47B00EFFCAE</string>
+			<key>targetProxy</key>
+			<string>FA2F31E61D13A47C00EFFCAE</string>
+		</dict>
+		<key>FA2F31E81D13A47C00EFFCAE</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>FA2F31E91D13A47C00EFFCAE</string>
+				<string>FA2F31EB1D13A47C00EFFCAE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>SwiftDemoCocoapodsPracticeUITests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA2F31E91D13A47C00EFFCAE</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>SwiftDemoCocoapodsPracticeUITests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA2F31EA1D13A47C00EFFCAE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FA2F31E91D13A47C00EFFCAE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FA2F31EB1D13A47C00EFFCAE</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA2F31EC1D13A47C00EFFCAE</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>FA2F31ED1D13A47C00EFFCAE</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>FA2F31EE1D13A47C00EFFCAE</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>FA2F31EF1D13A47C00EFFCAE</string>
+				<string>FA2F31F01D13A47C00EFFCAE</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>FA2F31EF1D13A47C00EFFCAE</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>A625BD32791751FADF27081D</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SwiftDemoCocoapodsPractice/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.Mad-hu.SwiftDemoCocoapodsPractice</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>FA2F31F01D13A47C00EFFCAE</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>ECF12F9EE4049152012991C4</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SwiftDemoCocoapodsPractice/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.Mad-hu.SwiftDemoCocoapodsPractice</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>FA2F31F11D13A47C00EFFCAE</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>FA2F31F21D13A47C00EFFCAE</string>
+				<string>FA2F31F31D13A47C00EFFCAE</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>FA2F31F21D13A47C00EFFCAE</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SwiftDemoCocoapodsPracticeTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.Mad-hu.SwiftDemoCocoapodsPracticeTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/SwiftDemoCocoapodsPractice.app/SwiftDemoCocoapodsPractice</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>FA2F31F31D13A47C00EFFCAE</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SwiftDemoCocoapodsPracticeTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.Mad-hu.SwiftDemoCocoapodsPracticeTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/SwiftDemoCocoapodsPractice.app/SwiftDemoCocoapodsPractice</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>FA2F31F41D13A47C00EFFCAE</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>FA2F31F51D13A47C00EFFCAE</string>
+				<string>FA2F31F61D13A47C00EFFCAE</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>FA2F31F51D13A47C00EFFCAE</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>SwiftDemoCocoapodsPracticeUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.Mad-hu.SwiftDemoCocoapodsPracticeUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>SwiftDemoCocoapodsPractice</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>FA2F31F61D13A47C00EFFCAE</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>SwiftDemoCocoapodsPracticeUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.Mad-hu.SwiftDemoCocoapodsPracticeUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>SwiftDemoCocoapodsPractice</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>FA2F31BE1D13A47B00EFFCAE</string>
+</dict>
+</plist>

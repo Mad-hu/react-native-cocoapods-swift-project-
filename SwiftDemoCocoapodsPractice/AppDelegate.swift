@@ -7,16 +7,31 @@
 //
 
 import UIKit
+import React
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var rootView: RCTRootView
+    let jsCodeLocation = NSURL(string: "http://192.168.160.129:8081/index.ios.bundle?platform=ios&dev=true")
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        let rootViewController = ViewController()
+        rootViewController.view = rootView
+        
+        // Set window to use rootViewController
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        self.window?.rootViewController = rootViewController
+        self.window?.makeKeyAndVisible()
         return true
+    }
+    
+    override init() {
+//         initialize the rootView to fetch JS from the dev server
+        rootView = RCTRootView.init(bundleURL: jsCodeLocation!, moduleName: "SwiftDemoCocoapodsPractice", initialProperties: nil, launchOptions: nil)
+        super.init()
     }
 
     func applicationWillResignActive(application: UIApplication) {

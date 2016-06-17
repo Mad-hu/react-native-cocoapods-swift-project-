@@ -1,0 +1,15 @@
+{
+  "name": "swfit-demo-cocoapods-practice",
+  "version": "1.0.0",
+  "description": "swfit项目采用cocoapods方式集成react native",
+  "main": "index.ios.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mad hu",
+  "license": "ISC",
+  "devDependencies": {
+    "react": "^15.1.0",
+    "react-native": "^0.27.2"
+  }
+}
